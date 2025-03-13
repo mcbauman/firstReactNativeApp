@@ -6,8 +6,8 @@ export default class index extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>index</Text>
-        <Link href="/profil" style={styles.headline}>go to profile</Link>
+        <Text style={styles.headline}>Mein Kontaktbuch</Text>
+        <Link style={styles.link} href="/(tabs)/home">starte Kontaktbuch</Link>
       </View>
     )
   }
@@ -23,7 +23,11 @@ const styles = StyleSheet.create({
     headline:{
         fontSize:40,
         backgroundColor:"rgba(255, 0, 0, 0.66)",
-        padding:10,
+        padding:20,
         borderRadius:5
+    },
+    link:{
+        marginTop:10,
+        color:"blue"
     }
 })
