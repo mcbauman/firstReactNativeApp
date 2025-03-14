@@ -18,7 +18,7 @@ const Tabslayout = () => {
           ),
         }}></Tabs.Screen>
 
-<Tabs.Screen name="profil" options={{
+        <Tabs.Screen name="profil" options={{
           tabBarIcon:({color, size})=>(
             <Ionicons name="body" color={color} size={size}></Ionicons>
           ),
